@@ -1,0 +1,62 @@
+.ip_pessoal{
+    width: 30%;
+    height: 30%;
+}
+.ip_heroku{
+    width: 30%;
+    height: 30%;
+}
+.traceroute{
+    width: 30%;
+    height: 40%;
+}
+.geotrace{
+    width: 30%;
+    height: 40%;
+}
+.preview{
+    width: 60%;
+    height: 40%;
+}
+.header{
+    width: 20%;
+    height: 30%;
+    margin-left: 50px;
+}
+.timing{
+    width: 20%;
+    height: 30%;
+    margin-left: 50px;
+}
+.timing1{
+    width: 20%;
+    height: 30%;
+    margin-left: 50px;
+}
+.preview1{
+    width: 20%;
+    height: 30%;
+    margin-left: 50px;
+}
+body{
+    margin-right: 30px;
+    background-color:ghostwhite;
+}
+.codigo{
+    width: 70%;
+    height: 40%; 
+}
+li{
+    margin-top: 30px;
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 20px;
+}
+
