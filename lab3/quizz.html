@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Muhammad Iquibal">
+    <meta name="keywords" content="palavras chave">
+    <meta name="description" content="Website sobre o Dubai">
+
+    <title>Dubai</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+</head>
+<body>
+    <h1>Dubai</h1>
+    <img src="images/dubai.jpg" alt="" width="300px">
+    <br>
+    <a href="index.html"> Introdução | </a>
+    <a href="local.html"> Localização | </a>
+    <a href="multimedia.html"> Multimédia | </a>
+    <a href="info.html" > Informações | </a>
+    <a href="quizz.html"><b>Quizz</b> | </a>
+    <a href="comentarios.html"> Comentários | </a>
+    <a href="../index.html"> Home </a>
+    <body style="background-color: #D3D3D3 ;">
+    <h3>Quizz</h3>
+    <form method="post" action="mailto:imraniquibal@hotmail.com">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="fname"> Primeiro nome: </label>
+            <input type="text" id="fname" name="fname" autofocus required placeholder="João"><br><br>
+            <label for="lname"> Último nome:</label>
+            <input type="text" id="lname" name="lname" required placeholder="Cabaço"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="joao_cabaco@gmail.com"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Quizz</legend>
+            <label for="países">Qual é o país desta cidade: </label>
+            <input type="text" id="country" name="country" list="country-list" autocomplete="country">
+            <datalist id="country-list">
+                <option>Alemanha</option>
+	            <option>Arábia Saudita</option>
+	            <option>Estados Unidos da América</option>
+	            <option>Emirados Árabes Unidos</option>
+	            <option>Japão</option>
+	            <option>Kuwait</option>
+	            <option>Líbano</option>
+	            <option>Singapura</option>
+            </datalist> <br><br>
+            <label for="população"> Quantos habitantes residem nesta cidade ? </label> <br>
+            <input type="radio" id="hab1" name="hab" value="5857368" required>
+            <label for="população">5.857.368 hab</label><br>
+            <input type="radio" id="hab2" name="hab" value="1456889" required>
+            <label for="população">1.456.889 hab</label><br>  
+            <input type="radio" id="hab3" name="hab" value="3416127" required>
+            <label for="age3">3.416.127 hab</label><br><br>
+            <label for="religiao"> Qual a religião predominante nesta cidade ? </label>
+            <input type="text" id="religiao" name="religiao"required><br><br>
+            <label for="predio"> Quais são os pontos turísticos principais ? </label> <br>
+            <input type="checkbox" id="p1" name="ponto" value="Burj Khalifa" required>
+            <label for="p1"> Burj Khalifa </label><br>
+            <input type="checkbox" id="p2" name="ponto" value="Burj Al Arab" required>
+            <label for="p2"> Burj Al Arab </label><br>
+            <input type="checkbox" id="p3" name="ponto" value="Palm Jumeirah" required>
+            <label for="p3"> Palm Jumeirah </label><br><br>
+            <label for="dia">Qual é o dia nacional dos EAU ?</label> 
+            <input type="date" id="dia" name="dia" required> <br><br>
+            <label for="quantity">Quanto metros tem o Burj Khalfia (em metros):</label>
+            <input type="number" id="quantity" name="quantity" min="820" max="996" size="55" step="8" required> <br><br>
+            <label for="imagem"> Qual destas bandeiras pertence ao emirado do Dubai ?</label> <br><br>
+            <input type="image" src="images/Flag_of_Dubai.png" alt="Bandeira1" width="100" required> 
+            <input type="radio" id="b1" name="bandeira" value="Bandeira1" required><br><br>
+            <label for="imagem2"></label>
+            <input type="image" src="images/bandeira-dos-emirados-arabes-2000px.png" alt="Bandeira2" width="100" required>
+            <input type="radio" id="b2" name="bandeira" value="Bandeira2" required> <br><br>
+            <label for="imagem3"></label>
+            <input type="image" src="images/bandeira_qatar.png" alt="Bandeira3" width="100" height="50" required>
+            <input type="radio" id="b3" name="bandeira" value="Bandeira3" required> <br><br>
+            <label for="favcolor">Selecione a cor que mais se adequa à cidade:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#009DFF" required><br><br>
+            <label for="vol">Qual a percentagem de trabalhadores migrantes que compõe a população do Dubai (entre 50-70%):</label>
+            <input type="range" id="vol" name="vol" min="40" max="60" required> <br><br>
+            <input type="submit" value="Submit" >
+        </fieldset>
+    </form>
+    <br>
+    <br>
+
+    <svg width="140" height="140">
+        <a href="./index.html">
+        <text x="62" y="120" fill="red">
+       Introdução
+       <animate id="a1" attributeName="font-size" from="" to="10px" dur="2s" fill="freeze" repeatCount="indefinite" begin = "1"/>
+        </text>
+         </a>
+         <a href="../index.html">
+         <text x="30" y="140" fill="green">
+            Localização
+            <animate id="a2" attributeName="font-size" from="" to="20px" dur="2s" fill="freeze" repeatCount="indefinite"/>
+           </a>
+           <a href="./multimedia.html">
+        <text x="62" y="70" fill="yellow">
+            Multimédia
+            <animate id="a2" attributeName="opacity" from="1" to="0" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </a>
+        <a href="./info.html">
+        <text x="60" y="15" fill="black">
+            Informações
+            <animate id="a2" attributeName="x" from="" to="150" dur="2s" fill="freeze" repeatCount="indefinite"/>
+         </a>
+         <a href="./quizz.html">  
+        <text x="20" y="50" fill="grey">
+             Quizz
+            <animate id="a2" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </a> 
+        <a href="./comentarios.html">
+        <text x="20" y="95" fill="orange">
+            Comentários
+            <animate id="a2" attributeName="fill" from="green" to="yellow" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </a>
+        <a href="../index.html"></a>
+        <text x="100" y="40" fill="blue">
+            Home
+            <animate id="a2" attributeName="fill" from="orange" to="white" dur="2s" fill="freeze" repeatCount="indefinite"/>
+       </svg>
