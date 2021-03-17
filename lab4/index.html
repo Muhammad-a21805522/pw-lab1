@@ -6,33 +6,53 @@
     <meta name="keywords" content="palavras chave">
     <meta name="description" content="Website sobre o Dubai">
 
-    <title>Dubai</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Dubai</title>
 </head>
 <body>
+        <figure>
     <img src="images/Flag_of_Dubai.png" alt="" width="100px">
-    <caption> <br> Bandeira do Dubai </caption>
-    <h1>Dubai</h1>
-    <img src="images/dubai.jpg" alt="" width="300px">
-    <br>
-    <a href="index.html"><b>Introdução</b> | </a>
-    <a href="local.html"> Localização | </a>
-    <a href="multimedia.html"> Multimédia | </a>
-    <a href="info.html"> Informações | </a>
-    <a href="quizz.html"> Quizz | </a>
-    <a href="comentarios.html"> Comentários | </a>
-    <a href="../index.html"> Home </a>
+    <figcaption> Bandeira do Dubai</figcaption>
+</figure>
+    <header>
+        <h1>Dubai</h1>
+        <figure>
+        <img src="images/dubai.jpg" alt="" width="300px">
+    </figure>
+    </header>
+    <nav>
+    <a href="index.html" id="menu1"> <b> <i class="material-icons" style="font-size:20px;color: white;" >description</i>Introdução</b> | </a>
+    <a href="local.html" id="menu2"> <i class="material-icons" style="font-size:20px; color: red;">map</i>  Localização | </a>
+    <a href="multimedia.html" id="menu3"> <i class="material-icons" style="font-size:20px; color: black;">add_a_photo</i> Multimédia | </a>
+    <a href="info.html" id="menu4"> <i class="material-icons" style="font-size:20px; color: darkgreen;">info</i> Informações | </a>
+    <a href="quizz.html" id="menu5"> <i class="material-icons" style="font-size:20px; color: rgb(105, 116, 212);">live_help</i> Quizz | </a>
+    <a href="comentarios.html" id="menu6"><i class="material-icons" style="font-size:20px; color: yellow;">feedback</i> </a>
+    <a href="html5-css.html" id="menu7"> <i class="material-icons" style="font-size:20px; color: orangered;">laptop</i> HTML5 |</a>
+    <a href="../index.html" id="menu8"> <i class="material-icons" style="font-size:20px; color: orange;">home</i> Home </a>
+</nav>
+<main>
     <body style="background-color: #D3D3D3 ;">
+    <section>
     <h3>Introdução</h3>
     <p>O Dubai é um dos sete Emirados dos Emirados Árabes Unidos. É uma cidade conhecida pela sua extravangância e inovação. Tem uma arquitetura ultramoderna e os habitantes são na grande maioria estrangeiros.<br>
         Esta cidade é a cidade mais populosa do país e é também a capital financeira. É conhecida por ter o prédio mais alto do mundo, Burj Khalifa, e duas ilhas artificiais construídas pelo homem, onde neste momento é constituído por hotéis e habitações.</p>
-    <h4>Motivo da escolha da cidade</h4>
+    </section>
+    <section> 
+        <h4>Motivo da escolha da cidade</h4>
+    <p> Nesta parte destaco com emojis a escolha da cidade</p>
+    </section>
     <p>&#127774 &#127796 &#127828 &#128182 &#128332 &#128526 &#9992 &#127961 &#127881 &#128042 &#127754	&#127750</p>
     <hr>
     <p>O Dubai é conhecido por ter prédios muito altos e também de ter o único <b>hotel com 7 estrelas</b> no mundo, tornando a cidade num dos melhores sítios para visitar.  Ir à <u>praia de água quente</u> e visitar os pontos icónicos fazem com que sejam as <i>razões de ter escolhido esta cidade.</i> <a href="https://www.jumeirah.com/en/article/stories/dubai/15-amazing-facts-about-the-burj-al-arab">[1]</a></p>
     <hr>
     <p>O Dubai é hoje uma das cidades mais cosmopolitas do mundo. Lar de quase 200 nacionalidades, a cidade oferece uma experiência verdadeiramente memorável a todos os visitantes. O deserto e paisagens magníficas da cidade,fazem com que seja uma das cidades mais icónicas do mundo. </p>
-    <p><b>Neste site podemos:</b></p> 
+    <section>
+        <h5>Site usage</h5>
+        <p><b>Neste site podemos:</b></p>
+    </section>
     <ul>
         <li> Ter uma noção sobre o Dubai</li>
         <li>Verificar as <a href="info.html">informações</a> da cidade</li>
@@ -64,7 +84,7 @@
        <animate id="a1" attributeName="font-size" from="" to="10px" dur="2s" fill="freeze" repeatCount="indefinite" begin = "1"/>
         </text>
          </a>
-         <a href="../index.html">
+         <a href="./local.html">
          <text x="30" y="140" fill="green">
             Localização
             <animate id="a2" attributeName="font-size" from="" to="20px" dur="2s" fill="freeze" repeatCount="indefinite"/>
@@ -89,10 +109,14 @@
             Comentários
             <animate id="a2" attributeName="fill" from="green" to="yellow" dur="2s" fill="freeze" repeatCount="indefinite"/>
         </a>
-        <a href="../index.html"></a>
+        <a href="../index.html">
         <text x="100" y="40" fill="blue">
             Home
             <animate id="a2" attributeName="fill" from="orange" to="white" dur="2s" fill="freeze" repeatCount="indefinite"/>
-       </svg>
-       
+       </a>
+    </svg>
+    </main>
+    <footer>
+        <p>Muhammad Imran Iquibal | 21805522 | Universidade Lusófona | 3ºAno | LIG</p>
+    </footer>
 </body>

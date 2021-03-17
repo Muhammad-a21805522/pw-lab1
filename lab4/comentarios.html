@@ -5,23 +5,38 @@
     <meta name="author" content="Muhammad Iquibal">
     <meta name="keywords" content="palavras chave">
     <meta name="description" content="Website sobre o Dubai">
-
-    <title>Dubai</title>
+    
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Dubai</title>
 </head>
 <body>
-    <h1>Dubai</h1>
-    <img src="images/dubai.jpg" alt="" width="300px">
-    <br>
-    <a href="index.html"> Introdução | </a>
-    <a href="local.html"> Localização | </a>
-    <a href="multimedia.html"> Multimédia | </a>
-    <a href="info.html" > Informações | </a>
-    <a href="quizz.html"> Quizz | </a>
-    <a href="comentarios.html"> <b>Comentários</b> | </a>
-    <a href="../index.html"> Home </a>
+    
+    <header>
+        <h1>Dubai</h1>
+        <figure>
+        <img src="images/dubai.jpg" alt="" width="300px">
+    </figure>
+    </header>
+    <nav>
+    <a href="index.html" id="menu1"> <i class="material-icons" style="font-size:20px;color: white;" >description</i> Introdução | </a>
+    <a href="local.html" id="menu2"> <i class="material-icons" style="font-size:20px; color: red;">map</i> Localização | </a>
+    <a href="multimedia.html" id="menu3"> <i class="material-icons" style="font-size:20px; color: black;">add_a_photo</i> Multimédia | </a>
+    <a href="info.html" id="menu4"> <i class="material-icons" style="font-size:20px; color: darkgreen;">info</i> Informações | </a>
+    <a href="quizz.html" id="menu5"><i class="material-icons" style="font-size:20px; color: rgb(105, 116, 212);">live_help</i> Quizz | </a>
+    <a href="comentarios.html" id="menu6"><i class="material-icons" style="font-size:20px; color: yellow;">feedback</i> </a>
+    <a href="html5-css.html" id="menu7"> <i class="material-icons" style="font-size:20px; color: orangered;">laptop</i> HTML5 |</a>
+    <a href="../index.html" id="menu8"> <i class="material-icons" style="font-size:20px; color: orange;">home</i> Home </a>
+    
+</nav>
+<main>
     <body style="background-color: #D3D3D3 ;">
+    <section>
     <h3>Comentários</h3>
+    <p>Nesta secção, o utilizador pode comentar o site e apontar os aspetos positivos e negativos. </p>
+</section>
     <form method="post" action="mailto: imraniquibal@hotmail.com">
         <label for="vol">Clareza:</label> <br>
         <input type="range" id="vol" name="vol" min="0" max="100" required> <br><br>
@@ -43,7 +58,7 @@
         <textarea name="aspetos" id="asp1" cols="50" rows="4" required placeholder="Escreva aqui aos aspetos positivos..."></textarea> <br>
         <label for="vol">Aspetos negativos:</label> <br>
         <textarea name="aspetos" id="asp2" cols="50" rows="4" required placeholder="Escreva aqui aos aspetos negativos..."></textarea> <br><br>
-        <input type="hidden" id="opiniao" name="opiniao" value="Trata-se de uma opinião relativa ao laboratório 3">
+        <input type="hidden" id="opiniao" name="opiniao" value="Trata-se de uma opinião relativa ao laboratório 4">
         <input type="submit" value="Submit" >
     </form>
     <br>
@@ -56,7 +71,7 @@
        <animate id="a1" attributeName="font-size" from="" to="10px" dur="2s" fill="freeze" repeatCount="indefinite"/>
         </text>
          </a>
-         <a href="../index.html">
+         <a href="./local.html">
          <text x="30" y="140" fill="green">
             Localização
             <animate id="a2" attributeName="font-size" from="" to="20px" dur="2s" fill="freeze" repeatCount="indefinite"/>
@@ -81,8 +96,14 @@
             Comentários
             <animate id="a2" attributeName="fill" from="green" to="yellow" dur="2s" fill="freeze" repeatCount="indefinite"/>
         </a>
-        <a href="../index.html"></a>
+        <a href="../index.html">
         <text x="100" y="40" fill="blue">
             Home
             <animate id="a2" attributeName="fill" from="orange" to="white" dur="2s" fill="freeze" repeatCount="indefinite"/>
-       </svg>
+       </a>
+    </svg>
+        </main>
+        <footer>
+            <p>Muhammad Imran Iquibal | 21805522 | Universidade Lusófona | 3ºAno | LIG</p>
+        </footer>
+    </body>

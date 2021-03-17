@@ -5,23 +5,37 @@
     <meta name="author" content="Muhammad Iquibal">
     <meta name="keywords" content="palavras chave">
     <meta name="description" content="Website sobre o Dubai">
-
-    <title>Dubai</title>
+    
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Dubai</title>
 </head>
 <body>
-    <h1>Dubai</h1>
-    <img src="images/dubai.jpg" alt="" width="300px">
-    <br>
-    <a href="index.html"> Introdução | </a>
-    <a href="local.html"> Localização | </a>
-    <a href="multimedia.html"> Multimédia | </a>
-    <a href="info.html" > Informações | </a>
-    <a href="quizz.html"><b>Quizz</b> | </a>
-    <a href="comentarios.html"> Comentários | </a>
-    <a href="../index.html"> Home </a>
+    
+    <header>
+        <h1>Dubai</h1>
+        <figure>
+        <img src="images/dubai.jpg" alt="" width="300px">
+    </figure>
+</header>
+    <nav>
+    <a href="index.html" id="menu1"> <i class="material-icons" style="font-size:20px;color: white;" >description</i> Introdução | </a>
+    <a href="local.html" id="menu2"> <i class="material-icons" style="font-size:20px; color: red;">map</i> Localização | </a>
+    <a href="multimedia.html" id="menu3"> <i class="material-icons" style="font-size:20px; color: black;">add_a_photo</i> Multimédia | </a>
+    <a href="info.html" id="menu4"> <i class="material-icons" style="font-size:20px; color: darkgreen;">info</i> Informações | </a>
+    <a href="quizz.html" id="menu5"><b> <i class="material-icons" style="font-size:20px; color: rgb(105, 116, 212);">live_help</i> Quizz</b> | </a>
+    <a href="comentarios.html"id="menu6"> <i class="material-icons" style="font-size:20px; color: yellow;">feedback</i></a>
+    <a href="html5-css.html" id="menu7"> <i class="material-icons" style="font-size:20px; color: orangered;">laptop</i> HTML5 |</a>
+    <a href="../index.html" id="menu8"> <i class="material-icons" style="font-size:20px; color: orange;">home</i> Home </a>
+</nav>
+<main>
     <body style="background-color: #D3D3D3 ;">
-    <h3>Quizz</h3>
+    <section>
+        <h3>Quizz</h3>
+        Nesta parte temos um quizz, onde devem responder às questões propostas.
+    </section>
     <form method="post" action="mailto:imraniquibal@hotmail.com">
         <fieldset>
             <legend>Dados Pessoais</legend>
@@ -93,7 +107,7 @@
        <animate id="a1" attributeName="font-size" from="" to="10px" dur="2s" fill="freeze" repeatCount="indefinite" begin = "1"/>
         </text>
          </a>
-         <a href="../index.html">
+         <a href="./local.html">
          <text x="30" y="140" fill="green">
             Localização
             <animate id="a2" attributeName="font-size" from="" to="20px" dur="2s" fill="freeze" repeatCount="indefinite"/>
@@ -118,8 +132,15 @@
             Comentários
             <animate id="a2" attributeName="fill" from="green" to="yellow" dur="2s" fill="freeze" repeatCount="indefinite"/>
         </a>
-        <a href="../index.html"></a>
+        <a href="../index.html">
         <text x="100" y="40" fill="blue">
             Home
             <animate id="a2" attributeName="fill" from="orange" to="white" dur="2s" fill="freeze" repeatCount="indefinite"/>
-       </svg>
+       </a>
+    </svg>
+    </main>
+    <footer>
+        <p>Muhammad Imran Iquibal | 21805522 | Universidade Lusófona | 3ºAno | LIG</p>
+    </footer>
+
+    </body>

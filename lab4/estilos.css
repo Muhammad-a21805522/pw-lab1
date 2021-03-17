@@ -1,0 +1,86 @@
+*{
+    font-family: 'Titillium Web', serif;
+    font-size: 16px;
+}
+h1{
+    font-size: 30px;
+}
+body header{
+    background-color: rgb(211 211 211)
+}
+body nav{
+    width: 800px;
+    font-size: 20px;
+}
+main + footer{
+    font-size: 35px;
+    width: auto;
+}
+a:link{
+    color: rgb(23, 112, 112);
+}
+a:visited{
+    color: #005294;
+}
+a:hover{
+    color: #1240b8;
+}
+a:active{
+    color: darkslategray;
+}
+h1::before{
+    content: "\1F60E";
+}
+#menu6::after{
+    content: "Comentários |";
+}
+#poem::before{
+    content: "Dubai Poem";
+    color: firebrick;
+}
+#poem::after{
+    content: "Escrito por: Desconhecido";
+    color: green;
+}
+tr:nth-child(even){
+    background-color: yellowgreen;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+iframe{
+    border: 5px solid #4a839c;
+}
+[src="images/burj_pequeno.jpg"]{
+    border: 2px solid #eaa991;
+}
+
+[alt$="Palm Jumeirah"]{
+    border: 2px solid #eaa991;
+}
+figure.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 8px;
+  }
+  figure.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+}
+img.relativo {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #4a839c;
+  }
+img.absoluto {
+    position: absolute;
+    top: 2450px;
+    right: 710px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #1c1b5c;
+  }
