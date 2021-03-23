@@ -1,0 +1,226 @@
+*{
+    font-family: 'Titillium Web', serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body > *{
+  text-align: center;
+  font-size: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body > header{
+  font-size: 8vw;
+}
+header{
+  grid-area: header;
+}
+nav{
+  grid-area: menu;
+}
+.asid{
+  grid-area: aside;
+}
+main{
+  grid-area: main;
+}
+footer{
+  grid-area: footer;
+}
+
+@media (max-width: 600px){
+    body{
+      background-color: lightblue;
+      display: grid;
+      width: 100vw;
+      height: 100vh;
+      grid-template-columns: 100%;
+      grid-template-rows: 300px 300px 1fr 7vw 800px;
+      grid-template-areas:
+      "header"
+      "menu"
+      "main"
+      "aside"
+      "footer";
+      grid-gap: 10px;
+      padding: 15px;
+  }
+  img {
+    width: 100%;
+  }
+  svg {
+    width: 90%;
+    margin-right: 120px;
+  }
+  #menu8{
+    margin-right: 60px;
+  }
+  .bandeira {
+    position: absolute;
+    top: 0px;
+    left: -8px;
+    width: 80px;
+    font-size: 10px;
+  }
+  img.center{
+    width: 80%;
+    margin-right: 30px;
+  }
+    }
+
+@media (min-width: 800px) {
+  body {
+    background: rgb(211, 211, 211);
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 300px 9fr 2fr;
+    grid-template-rows: 400px 4fr 9vw;
+    grid-template-areas:
+      "header header header"
+      "menu   main   aside"
+      "menu footer footer";
+    grid-gap: 1vw;
+    padding: 20px;
+}
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    height: 400px;
+    background: rgb(211, 211, 211);
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  .bandeira {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .grp1{
+  background: #ffefe3;
+  }
+  .grp2{
+  background:#ffefe3;
+  }
+  #menu8{
+  background: #ffefe3;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: 200px;
+  width: 50%;
+}
+
+
+
+
+h1{
+    font-size: 30px;
+}
+
+header{
+  text-align: center;
+  justify-content: center;
+}
+main{
+  text-align: center;
+  justify-content: center;
+}
+footer{
+  text-align: center;
+  justify-content: center;
+}
+
+.site{
+  list-style-type: none;
+}
+a:link{
+    color: rgb(23, 112, 112);
+}
+a:visited{
+    color: #005294;
+}
+a:hover{
+    color: #1240b8;
+}
+a:active{
+    color: darkslategray;
+}
+h1::before{
+    content: "\1F60E";
+}
+h1::after{
+  content: "\1F525";
+}
+#menu6::after{
+    content: "Comentários |";
+}
+#poem::before{
+    content: "Dubai Poem";
+    color: firebrick;
+}
+#poem::after{
+    content: "Escrito por: Desconhecido";
+    color: green;
+}
+tr:nth-child(even){
+    background-color: yellowgreen;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+iframe{
+    border: 5px solid #4a839c;
+}
+[src="images/burj_pequeno.jpg"]{
+    border: 2px solid #eaa991;
+}
+
+[alt$="Palm Jumeirah"]{
+    border: 2px solid #eaa991;
+}
+figure.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 8px;
+  }
+  figure.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+}
+img.relativo {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #4a839c;
+  }
+img.absoluto {
+    position: absolute;
+    top: 2450px;
+    right: 710px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #1c1b5c;
+  }
+  .multi{
+    text-align: center;
+    justify-content: center;
+  }

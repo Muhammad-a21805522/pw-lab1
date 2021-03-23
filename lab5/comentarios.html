@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Muhammad Iquibal">
+    <meta name="keywords" content="HTML.CSS,Dubai">
+    <meta name="description" content="Website sobre o Dubai">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Dubai</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Dubai</h1>
+        <figure>
+        <img src="images/dubai.jpg" alt="" width="300px" class="center">
+    </figure>
+    </header>
+    <nav>
+        <ul class="grp1">
+    <li>
+        <a href="index.html" id="menu1"> <i class="material-icons" style="font-size:20px;color: white;" >description</i> Introdução | </a>
+    </li>
+    <li>
+        <a href="local.html" id="menu2"> <i class="material-icons" style="font-size:20px; color: red;">map</i> Localização | </a>
+    </li>
+    <li>
+        <a href="multimedia.html" id="menu3"> <i class="material-icons" style="font-size:20px; color: black;">add_a_photo</i> Multimédia | </a>
+    </li>
+    <li>
+        <a href="info.html" id="menu4"> <i class="material-icons" style="font-size:20px; color: darkgreen;">info</i> Informações | </a>
+    </li>
+    </ul>
+    <ul class="grp2">
+    <li>
+        <a href="quizz.html" id="menu5"><i class="material-icons" style="font-size:20px; color: rgb(105, 116, 212);">live_help</i> Quizz | </a>
+    </li>
+    <li>
+        <a href="comentarios.html" id="menu6"><i class="material-icons" style="font-size:20px; color: yellow;">feedback</i> </a>
+    </li>
+    <li>
+         <a href="html5-css.html" id="menu7"> <i class="material-icons" style="font-size:20px; color: orangered;">laptop</i> HTML5 & CSS |</a>
+    </li>
+</ul>
+<ul>
+      <li>
+        <a href="../index.html" id="menu8"> <i class="material-icons" style="font-size:20px; color: orange;">home</i> Home </a>
+   </li>
+</ul>
+</nav>
+<main>
+    <body>
+    <section>
+    <h3>Comentários</h3>
+    <p>Nesta secção, o utilizador pode comentar o site e apontar os aspetos positivos e negativos. </p>
+</section>
+    <form method="post" action="mailto: imraniquibal@hotmail.com">
+        <label for="vol">Clareza:</label> <br>
+        <input type="range" id="vol" name="vol" min="0" max="100" required> <br><br>
+        <label for="vol">Rigor:</label> <br>
+        <input type="range" id="vol" name="vol" min="0" max="100" required> <br><br>
+        <label for="vol">Precisão:</label> <br>
+        <input type="range" id="vol" name="vol" min="0" max="100" required> <br><br>
+        <label for="vol">Profundidade:</label> <br>
+        <input type="range" id="vol" name="vol" min="0" max="100" required> <br><br>
+        <label for="vol">Amplitude:</label> <br>
+        <input type="range" id="vol" name="vol" min="0" max="100" required> <br><br>
+        <label for="vol">Lógica:</label> <br>
+        <input type="range" id="vol" name="vol" min="0" max="100" required> <br><br>
+        <label for="vol">Signifcância:</label> <br>
+        <input type="range" id="vol" name="vol" min="0" max="100" required> <br><br>
+        <label for="vol">Originalidade:</label> <br>
+        <input type="range" id="vol" name="vol" min="0" max="100" required> <br><br>
+        <label for="vol">Aspetos Positivos:</label> <br>
+        <textarea name="aspetos" id="asp1" cols="50" rows="4" required placeholder="Escreva aqui aos aspetos positivos..."></textarea> <br>
+        <label for="vol">Aspetos negativos:</label> <br>
+        <textarea name="aspetos" id="asp2" cols="50" rows="4" required placeholder="Escreva aqui aos aspetos negativos..."></textarea> <br><br>
+        <input type="hidden" id="opiniao" name="opiniao" value="Trata-se de uma opinião relativa ao laboratório 4">
+        <input type="submit" value="Submit" >
+    </form>
+    <br>
+    <br>
+
+    <svg width="140" height="140">
+        <a href="./index.html">
+        <text x="62" y="120" fill="red">
+       Introdução
+       <animate id="a1" attributeName="font-size" from="" to="10px" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </text>
+         </a>
+         <a href="./local.html">
+         <text x="30" y="140" fill="green">
+            Localização
+            <animate id="a2" attributeName="font-size" from="" to="20px" dur="2s" fill="freeze" repeatCount="indefinite"/>
+           </a>
+           <a href="./multimedia.html">
+        <text x="62" y="70" fill="yellow">
+            Multimédia
+            <animate id="a2" attributeName="opacity" from="1" to="0" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </a>
+        <a href="./info.html">
+        <text x="60" y="15" fill="black">
+            Informações
+            <animate id="a2" attributeName="x" from="" to="150" dur="2s" fill="freeze" repeatCount="indefinite"/>
+         </a>
+         <a href="./quizz.html">  
+        <text x="20" y="50" fill="grey">
+             Quizz
+            <animate id="a2" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </a> 
+        <a href="./comentarios.html">
+        <text x="20" y="95" fill="orange">
+            Comentários
+            <animate id="a2" attributeName="fill" from="green" to="yellow" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </a>
+        <a href="../index.html">
+        <text x="100" y="40" fill="blue">
+            Home
+            <animate id="a2" attributeName="fill" from="orange" to="white" dur="2s" fill="freeze" repeatCount="indefinite"/>
+       </a>
+    </svg>
+        </main>
+        <div class="asid">
+            <aside>
+                <figure>
+                    <img src="images/Dubaicollage.jpg" alt="Foto">
+                </figure>
+            </aside>
+            <aside>
+                <p>Apesar do Dubai não ser a capital do país é considerada a capital financeira.</p>
+                <p>Graças à diversividade cultural e a segurança ,são fatores que contribuem para a boa qualidade de vida no Dubai.</p>
+            </aside>
+        </div>
+        <footer>
+            <p>Muhammad Imran Iquibal | 21805522 | Universidade Lusófona | 3ºAno | LIG</p>
+        </footer>
+    </body>
+    </html>

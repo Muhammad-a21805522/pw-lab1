@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Muhammad Iquibal">
+    <meta name="keywords" content="HTML.CSS,Dubai">
+    <meta name="description" content="Website sobre o Dubai">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    
+    <style>
+    .gal1{
+        display: flex;
+        flex-direction: row;
+      }
+      .gal2{
+        display: flex;
+        flex-direction: row;
+      }
+      .gal3{
+        display: flex;
+        flex-direction: row;
+      }
+      .gal4{
+        display: flex;
+        flex-direction: row;
+      }
+      #image1 {
+        width: 300px;
+        height: 200px;
+        transition: width 3s;
+      }
+      
+      #image1:hover {
+        width: 500px;
+      }
+    #image2 {transition-timing-function: ease-in-out;}
+    
+    #image2:hover {
+      width: 400px;
+    }
+    #image7 {transition-timing-function: ease;}
+    
+    #image7:hover{
+      width: 400px;
+    }
+    #image9{transition-timing-function: ease-in;}
+    
+    #image9:hover{
+      width: 500px;
+    }
+    
+    #image12{transition-timing-function: linear;}
+    
+    #image12:hover{
+      width: 500px;
+    }
+    
+    #image10 {
+      transition: width 2s, height 2s, transform 2s;
+      width: 300px;
+      height: 200px;
+    }
+    #image10:hover{
+      width: 500px;
+      height: 300px;
+      transform: rotate(360deg);
+    }
+    
+    #image4 {
+      width: 300px;
+      height: 200px;
+      transition-property: width;
+      transition-duration: 4s;
+      transition-timing-function:ease-out;
+      transition-delay: 2s;
+    }
+    
+    #image4:hover {
+      width: 400px;
+    }
+    
+    #image6 {
+      width: 300px;
+      height: 200px;
+      position: relative;
+      animation-name: example;
+      animation-duration: 3s;  
+      animation-fill-mode:backwards;
+    }
+    
+    @keyframes example {
+      from {top: 0px;}
+      to {top: 200px; background-color: blue;}
+    }
+    #image8 {
+      transition: width 2s, height 2s, transform 2s;
+      width: 300px;
+      height: 200px;
+    }
+    #image8:hover{
+      width: 500px;
+      height: 300px;
+      transform: scale(0.5)
+    }
+</style>
+    
+    
+</head>
+<body class="multi">
+    <figure class="sticky">
+        <img src="images/dubai_airport.jpg" alt="Dubai Airport">
+        <br>
+    </figure>
+    <figure class="fixed">
+        <img src="images/dubai_city.jpg" alt="City">
+    </figure>
+    <header>
+        <h1>Dubai</h1>
+        <figure>
+        <img src="images/dubai.jpg" alt="" width="300px" class="center">
+    </figure>
+</header>
+    <nav>
+        <ul class="grp1">
+            <li>
+                <a href="index.html" id="menu1"> <i class="material-icons" style="font-size:20px;color: white;" >description</i> Introdução | </a>
+            </li>
+            <li>
+                <a href="local.html" id="menu2"> <i class="material-icons" style="font-size:20px; color: red;">map</i> Localização | </a>
+            </li>
+            <li>
+                <a href="multimedia.html" id="menu3"><b><i class="material-icons" style="font-size:20px; color: black;">add_a_photo</i> Multimédia </b> | </a>
+            </li>
+            <li>
+                <a href="info.html" id="menu4"> <i class="material-icons" style="font-size:20px; color: darkgreen;">info</i> Informações | </a>
+            </li>
+        </ul>
+        <ul class="grp2">
+            <li>
+                <a href="quizz.html" id="menu5"><i class="material-icons" style="font-size:20px; color: rgb(105, 116, 212);">live_help</i> Quizz | </a>
+            </li>
+            <li>
+                <a href="comentarios.html" id="menu6"><i class="material-icons" style="font-size:20px; color: yellow;">feedback</i> </a>
+            </li>
+            <li>
+                 <a href="html5-css.html" id="menu7"> <i class="material-icons" style="font-size:20px; color: orangered;">laptop</i> HTML5 & CSS |</a>
+            </li>
+        </ul>
+        <ul>
+           <li>
+                <a href="../index.html" id="menu8"> <i class="material-icons" style="font-size:20px; color: orange;">home</i> Home </a>
+           </li>
+            </ul>
+</nav>
+<main>
+    <body>
+    <section>
+        <h3>Multimédia</h3>
+        <p>Nesta parte podemos ver as fotografias principais da cidade, um poema e um desenho em SVG.</p>
+    </section>
+    <figure>
+        <a href="images/burj_grande.jpg" target="foto">
+            <img src="images/burj_pequeno.jpg" alt="Burj Al Arab">
+        </a>
+        <figcaption> Burj Al Arab </figcaption>
+   </figure>
+        <figure>
+            <a href="images/palm_jumeirah_grande.jpg" target="foto2"><img src="images/palm_jumeirah_pequeno.jpg" alt="Palm Jumeirah"></a>
+        <figcaption> Palm Jumeirah</figcaption>
+        </figure>
+
+        <iframe width="800px" height="600px" name="foto" frameborder="0"></iframe>
+        <iframe width="800px" height="510px" name="foto2" frameborder="0"></iframe>
+        <br>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IdejM6wCkxA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <section>
+            <figure>
+                <img src="images/city2.jpg" alt="City" class="relativo">
+            </figure>
+            <figure>
+                <img src="images/mosque.jpg" alt="Mosque" class="absoluto">
+            </figure>
+        </section>
+        <p id="poem"><i> Spin, flow and ride in slow-mo <br>
+            on lazy river bend, dare each other <br>
+            into capsules, out stare sharks <br>
+            in deep pools. In this desert dream, <br>
+            our water not a mirage but a mirror <br>
+            of the sky. And in the corner of our eye <br>
+            the great Burj Khalifa.</i> </p>
+            <br>
+    
+        <h2>Galeria do Dubai</h2>
+        <section class="gal1">
+            <figure>
+                <img src="images/city3.jpg" alt="" id = image1>
+            </figure>
+            <figure>
+                <img src="images/city3.jpg" alt="" id = image2>
+            </figure>
+            <figure>
+                <img src="images/city3.jpg" alt="" id = image3>
+            </figure>
+        </section>
+        <section class="gal2">
+            <figure>
+                <img src="images/Downtown-Dubai.jpg" alt="" id = image4>
+            </figure>
+            <figure>
+                <img src="images/Downtown-Dubai.jpg" alt="" id = image5>
+            </figure>
+            <figure>
+                <img src="images/Downtown-Dubai.jpg" alt="" id = image6>
+            </figure>
+        </section>
+        <section class="gal3">
+            <figure>
+                <img src="images/future_city.jpg" alt="" id="image7">
+            </figure>
+            <figure>
+                <img src="images/future_city.jpg" alt="" id="image8">
+            </figure>
+            <figure>
+                <img src="images/future_city.jpg" alt="" id="image9">
+            </figure>
+        </section>
+        <section class="gal4">
+            <figure>
+                <img src="images/hotel.jpg" alt="" id="image10">
+            </figure>
+            <figure>
+                <img src="images/hotel.jpg" alt="" id="image11">
+            </figure>
+            <figure>
+                <img src="images/hotel.jpg" alt="" id="image12">
+            </figure>
+        </section>
+
+        <svg width = "400" height = "400">
+            <image href = "images/dubai2.svg" width = "500"></image>
+        </svg>
+        <p>Neste desenho está o Burj Khalifa, o prédio mais alto do mundo que mede 828 metros. <br> No desenho encontra-se a lua com uma estrela que representa o islamismo, a religião predominante nesta cidade. <br> As letras em árabe está o nome da cidade. </p>
+        <br>
+        <br>
+
+        <svg width="140" height="140">
+            <a href="./index.html">
+            <text x="62" y="120" fill="red">
+           Introdução
+           <animate id="a1" attributeName="font-size" from="" to="10px" dur="2s" fill="freeze" repeatCount="indefinite" begin = "1"/>
+            </text>
+             </a>
+             <a href="./local.html">
+             <text x="30" y="140" fill="green">
+                Localização
+                <animate id="a2" attributeName="font-size" from="" to="20px" dur="2s" fill="freeze" repeatCount="indefinite"/>
+               </a>
+               <a href="./multimedia.html">
+            <text x="62" y="70" fill="yellow">
+                Multimédia
+                <animate id="a2" attributeName="opacity" from="1" to="0" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </a>
+            <a href="./info.html">
+            <text x="60" y="15" fill="black">
+                Informações
+                <animate id="a2" attributeName="x" from="" to="150" dur="2s" fill="freeze" repeatCount="indefinite"/>
+             </a>
+             <a href="./quizz.html">  
+            <text x="20" y="50" fill="grey">
+                 Quizz
+                <animate id="a2" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </a> 
+            <a href="./comentarios.html">
+            <text x="20" y="95" fill="orange">
+                Comentários
+                <animate id="a2" attributeName="fill" from="green" to="yellow" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </a>
+            <a href="../index.html">
+            <text x="100" y="40" fill="blue">
+                Home
+                <animate id="a2" attributeName="fill" from="orange" to="white" dur="2s" fill="freeze" repeatCount="indefinite"/>
+          </a>
+        </svg>
+    </main>
+    <div class="asid">
+        <aside>
+            <figure>
+                <img src="images/Dubaicollage.jpg" alt="Foto">
+            </figure>
+        </aside>
+        <aside>
+            <p>Apesar do Dubai não ser a capital do país é considerada a capital financeira.</p>
+            <p>Graças à diversividade cultural e a segurança ,são fatores que contribuem para a boa qualidade de vida no Dubai.</p>
+        </aside>
+    </div>
+    <footer>
+        <p>Muhammad Imran Iquibal | 21805522 | Universidade Lusófona | 3ºAno | LIG</p>
+    </footer>
+</body>
+</html>

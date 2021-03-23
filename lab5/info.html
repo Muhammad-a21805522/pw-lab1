@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Muhammad Iquibal">
+    <meta name="keywords" content="HTML.CSS,Dubai">
+    <meta name="description" content="Website sobre o Dubai">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    
+    <header>
+        <h1>Dubai</h1>
+        <figure>
+        <img src="images/dubai.jpg" alt="" width="300px" class="center">
+   </figure>
+</header>
+    <nav>
+        <ul class="grp1">
+            <li>
+                <a href="index.html" id="menu1"> <i class="material-icons" style="font-size:20px;color: white;" >description</i> Introdução | </a>
+            </li>
+            <li>
+                <a href="local.html" id="menu2"><i class="material-icons" style="font-size:20px; color: red;">map</i> Localização | </a>
+            </li>
+            <li>
+                <a href="multimedia.html" id="menu3"> <i class="material-icons" style="font-size:20px; color: black;">add_a_photo</i> Multimédia | </a>
+            </li>
+            <li>
+                <a href="info.html" id="menu4"> <b><i class="material-icons" style="font-size:20px; color: darkgreen;">info</i> Informações </b>| </a>
+            </li>
+            </ul>
+            <ul class="grp2">
+                <li>
+                <a href="quizz.html" id="menu5"><i class="material-icons" style="font-size:20px; color: rgb(105, 116, 212);">live_help</i> Quizz | </a>
+            </li>
+            <li>
+                <a href="comentarios.html" id="menu6"><i class="material-icons" style="font-size:20px; color: yellow;">feedback</i> </a>
+            </li>
+            <li>
+                 <a href="html5-css.html" id="menu7"> <i class="material-icons" style="font-size:20px; color: orangered;">laptop</i> HTML5 & CSS |</a>
+            </li>
+            </ul>
+            <ul>
+           <li>
+                <a href="../index.html" id="menu8"> <i class="material-icons" style="font-size:20px; color: orange;">home</i> Home </a>
+           </li>
+            </ul>
+</nav>
+<main>
+    <body>
+<section>
+    <h3>Informações</h3>
+    <p> Abaixo temos uma tabela onde mostramos as informações principais e algumas curiosidades sobre o Dubai. </p>
+</section>
+    <table border="1" cellpadding = "10% " cellspacing = 1 bgcolor = "white">
+        <caption>
+            Informações sobre o Dubai <a href="https://www.visitdubai.com/"> [3] </a>
+        </caption>
+        <colgroup>
+            <col align="center">
+        </colgroup>
+        <thead>
+
+        </thead>
+        <tr>
+        <td rowspan="2"> Demografia </td>
+        <td style="text-align: center;"> População</td>
+    </thead>
+        <td> 3,416,127 hab </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Densidade Populacional</td>
+            <td>762,6 hab por km² </td>
+        </tr>
+        <tr>
+            <td rowspan="3">Geografia</td>
+            <td style="text-align: center;">Área</td>
+            <td> 4.114 km² </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" >Região</td>
+            <td>Dubai</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">País</td>
+            <td>Emirados Árabes Unidos</td>
+        </tr>
+        <tr>
+            <tbody>
+        <td> Website</td>
+        <td colspan="8" style="text-align: center;"><a href="https://www.visitdubai.com/" target="_blank"> www.visitdubai.com </a></td>
+    </tbody>
+    </tr>
+    <tr>
+        <td rowspan="2"> Curiosidades </td>
+        <td style="text-align: center;">Burj Khalifa</td>
+        <td>Maior arranha-céus do mundo, mede 828 metros e tem o recorde do Guinness</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">Burj Al Arab</td>
+        <td>Este é o único hotel de 7 estrelas no mundo e foi utilizado aproximadamente 1790m² de ouro (24k) para decorar o hotel </td>
+    </tr>
+    </table>
+    <br>
+    <br>
+
+    <svg width="140" height="140">
+        <a href="./index.html">
+        <text x="62" y="120" fill="red">
+       Introdução
+       <animate id="a1" attributeName="font-size" from="" to="10px" dur="2s" fill="freeze" repeatCount="indefinite" begin = "1"/>
+        </text>
+         </a>
+         <a href="./local.html">
+         <text x="30" y="140" fill="green">
+            Localização
+            <animate id="a2" attributeName="font-size" from="" to="20px" dur="2s" fill="freeze" repeatCount="indefinite"/>
+           </a>
+           <a href="./multimedia.html">
+        <text x="62" y="70" fill="yellow">
+            Multimédia
+            <animate id="a2" attributeName="opacity" from="1" to="0" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </a>
+        <a href="./info.html">
+        <text x="60" y="15" fill="black">
+            Informações
+            <animate id="a2" attributeName="x" from="" to="150" dur="2s" fill="freeze" repeatCount="indefinite"/>
+         </a>
+         <a href="./quizz.html">  
+        <text x="20" y="50" fill="grey">
+             Quizz
+            <animate id="a2" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </a> 
+        <a href="./comentarios.html">
+        <text x="20" y="95" fill="orange">
+            Comentários
+            <animate id="a2" attributeName="fill" from="green" to="yellow" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </a>
+        <a href="../index.html">
+        <text x="100" y="40" fill="blue">
+            Home
+            <animate id="a2" attributeName="fill" from="orange" to="white" dur="2s" fill="freeze" repeatCount="indefinite"/>
+       </a>
+    </svg>
+    </main>
+    <div class="asid">
+        <aside>
+            <figure>
+                <img src="images/Dubaicollage.jpg" alt="Foto">
+            </figure>
+        </aside>
+        <aside>
+            <p>Apesar do Dubai não ser a capital do país é considerada a capital financeira.</p>
+            <p>Graças à diversividade cultural e a segurança ,são fatores que contribuem para a boa qualidade de vida no Dubai.</p>
+        </aside>
+    </div>
+    <footer>
+        <p>Muhammad Imran Iquibal | 21805522 | Universidade Lusófona | 3ºAno | LIG</p>
+    </footer>
+    </body>
+    </html>
