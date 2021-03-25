@@ -75,7 +75,7 @@ footer{
   body {
     background: rgb(211, 211, 211);
     display: grid;
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
     grid-template-columns: 300px 9fr 2fr;
     grid-template-rows: 400px 4fr 9vw;
@@ -109,13 +109,13 @@ footer{
     left: 16px;
   }
   .grp1{
-  background: #ffefe3;
+  background: rgb(211, 211, 211);
   }
   .grp2{
-  background:#ffefe3;
+  background:rgb(211, 211, 211);
   }
   #menu8{
-  background: #ffefe3;
+  background: rgb(211, 211, 211);
   }
 }
 
@@ -199,6 +199,9 @@ figure.sticky {
     position: sticky;
     top: 0;
     padding: 8px;
+    align-items: baseline;
+    align-self: start;
+    z-index: -1;
   }
   figure.fixed {
     position: fixed;
